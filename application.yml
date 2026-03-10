@@ -50,7 +50,11 @@ logging:
     max-history: 30
     max-size: 1GB
   path: ./logs/
-
+  
   level:
     root: INFO
     lavalink: INFO
+
+plugins:
+  - dependency: "dev.lavalink.youtube:youtube-plugin:1.7.2"
+    repository: "https://maven.lavalink.dev/releases"
